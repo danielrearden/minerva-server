@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": false,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+      "standard",
+      "plugin:jest/recommended"
+    ],
+    "globals": {
+        "DATABASE_URL": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "always-multiline",
+          "objects": "always-multiline",
+          "imports": "always-multiline",
+          "exports": "always-multiline",
+          "functions": "ignore"
+        }
+      ]
+    },
+    "plugins": [
+      "jest"
+    ]
+}

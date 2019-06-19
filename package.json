@@ -1,0 +1,63 @@
+{
+  "name": "minerva-server",
+  "description": "Making GraphQL a hoot!",
+  "version": "0.1.0",
+  "author": "Daniel Rearden <danielrearden@gmail.com>",
+  "contributors": [
+    "Daniel Rearden <danielrearden@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrearden/minerva-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielrearden/minerva-server/issues"
+  },
+  "homepage": "https://github.com/danielrearden/minerva-server",
+  "keywords": [
+    "Minerva",
+    "GraphQL",
+    "Apollo",
+    "Sequelize",
+    "ORM"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "coverage": "jest --coverage --forceExit && codecov",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.6.2",
+    "express": "^4.17.1",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-middleware": "^3.0.2",
+    "graphql-parse-resolve-info": "^4.1.0",
+    "graphql-type-json": "^0.3.0",
+    "graphql-type-uuid": "^0.2.0",
+    "lodash": "^4.17.11",
+    "sequelize": "^5.8.7"
+  },
+  "peerDependencies": {
+    "graphql": "^14.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "graphql": "^14.3.1",
+    "jest": "^24.8.0",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "supertest": "^4.0.2"
+  }
+}
