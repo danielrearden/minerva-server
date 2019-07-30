@@ -1,7 +1,7 @@
 {
   "name": "minerva-server",
   "description": "Making GraphQL a hoot!",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Daniel Rearden <danielrearden@gmail.com>",
   "contributors": [
     "Daniel Rearden <danielrearden@gmail.com>"
