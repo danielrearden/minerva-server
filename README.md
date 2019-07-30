@@ -26,6 +26,8 @@
 - [Configuration](#configuration)
 </details>
 
+> ⚠️ This project 
+
 **Minerva Server** is a Node.js framework for generating efficient SQL queries from GraphQL requests. With Minerva, you can write a data model like this:
 
 ```js
